@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <a href="/songs/add">Add</a>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>No</th>
+          <th>Name</th>
+          <th>Duration</th>
+          <th>Genre</th>
+          <th>Band</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% songs.forEach((song, idx) => { %>
+        <tr>
+          <td><%= idx+1 %></td>
+          <td><%= song.name %></td>
+          <td><%= song.convertDuration(song.duration) %></td>
+          <td><%= song.genre %></td>
+          <td><%= song.Band?.name %></td>
+        </tr>
+        <% }) %>
+      </tbody>
+    </table>
+  </body>
+</html>

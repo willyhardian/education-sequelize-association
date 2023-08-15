@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "fullName": "Daniel Paper",
+    "phone": "+23456789987654",
+    "email": "paperkertas@mail.com",
+    "BandId" : 1
+  },
+  {
+    "id": 2,
+    "fullName": "Wendy Withered",
+    "phone": "+23456789987655",
+    "email": "wendy33444@mail.com",
+    "BandId" : 2
+  },
+  {
+    "id": 3,
+    "fullName": "IU Demopin",
+    "phone": "+23456789987656",
+    "email": "iuartiskoreyah@mail.com",
+    "BandId" : 3
+  },
+  {
+    "id": 4,
+    "fullName": "Andreas Tibito",
+    "phone": "+23456789987657",
+    "email": "easeas44@mail.com",
+    "BandId" : 4
+  },
+  {
+    "id": 5,
+    "fullName": "Seven Not Eleven",
+    "phone": "+23456789987658",
+    "email": "seven010101@mail.com",
+    "BandId" : 5
+  }
+]

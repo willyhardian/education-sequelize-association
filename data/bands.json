@@ -1,0 +1,32 @@
+[
+  {
+    "id": 1,
+    "name": "Debbugger",
+    "debutYear": 2020,
+    "domisili": "Jakarta"
+  },
+  {
+    "id": 2,
+    "name": "Error",
+    "debutYear": 2010,
+    "domisili": "Yogyakarta"
+  },
+  {
+    "id": 3,
+    "name": "Promise",
+    "debutYear": 2015,
+    "domisili": "Bandung"
+  },
+  {
+    "id": 4,
+    "name": "Callback",
+    "debutYear": 2000,
+    "domisili": "Bogor"
+  },
+  {
+    "id": 5,
+    "name": "Clean Code",
+    "debutYear": 2010,
+    "domisili": "Jakarta"
+  }
+]

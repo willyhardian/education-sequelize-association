@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <% if (errors) { %> <% errors.split(';').forEach((el) => { %>
+    <p><%= el %></p>
+    <%})%> <%}%>
+
+    <form action="/songs/add" method="post">
+      <div>
+        <label for="">Name</label>
+        <div>
+          <input type="text" name="name" />
+        </div>
+      </div>
+      <div>
+        <label for="">Duration</label>
+        <div>
+          <input type="text" name="duration" />
+        </div>
+      </div>
+      <div>
+        <label for="">Genre</label>
+        <div>
+          <input type="text" name="genre" />
+        </div>
+      </div>
+      <div>
+        <label for="">Band</label>
+        <div>
+          <select name="bandId" id="">
+            <% bands.forEach((band) => { %>
+            <option value="<%= band.id %>"><%= band.name %></option>
+            <% }) %>
+          </select>
+        </div>
+      </div>
+      <div>
+        <div>
+          <input type="submit" name="submit" value="SUBMIT" />
+        </div>
+      </div>
+    </form>
+  </body>
+</html>

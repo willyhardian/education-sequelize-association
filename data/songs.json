@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Callback Hell",
+    "duration": 2,
+    "genre": "Rock",
+    "BandId": 4
+  },
+  {
+    "id": 2,
+    "name": "Nested Callback",
+    "duration": 2,
+    "genre": "Rock",
+    "BandId": 4
+  },
+  {
+    "id": 3,
+    "name": "CB cb Cb cB",
+    "duration": 3,
+    "genre": "Indie",
+    "BandId": 4
+  }
+]
